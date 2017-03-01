@@ -9,51 +9,9 @@
 			}
 		},
 		{
-			"scope": [
-				"entity.name.tag",
-				
-				"markup.bold",
-				"markup.heading",
-				"markup.changed",
-				
-				"meta.preprocessor",
-				"meta.diff.header",
-				
-				"punctuation.definition.template-expression.begin.ts",
-				"punctuation.definition.template-expression.end.ts",
-				
-				"punctuation.section.embedded.begin.metatag.php",
-				"punctuation.section.embedded.end.metatag.php"
-			],
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
 			"scope": "constant.regexp",
 			"settings": {
 				"foreground": "#646695"
-			}
-		},
-		{
-			"scope": [
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.class.mixin.css",
-				"entity.other.attribute-name.id.css",
-				"entity.other.attribute-name.parent-selector.css",
-				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css",
-
-				"source.css.less entity.other.attribute-name.id",
-
-				"entity.other.attribute-name.attribute.scss",
-				"entity.other.attribute-name.scss",
-				"entity.name.tag.css",
-				
-				"meta.selector"
-			],
-			"settings": {
-				"foreground": "#d7ba7d"
 			}
 		},
 		{
@@ -78,13 +36,6 @@
 			"scope": "beginning.punctuation.definition.list.markdown",
 			"settings": {
 				"foreground": "#6796e6"
-			}
-		},
-		{
-			"name": "brackets of XML/HTML tags",
-			"scope": "punctuation.definition.tag",
-			"settings": {
-				"foreground": "#808080"
 			}
 		},
 		{
