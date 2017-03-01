@@ -83,7 +83,7 @@
 				"punctuation.definition.string.tag"
 			],
 			"settings": {
-				"foreground": "#aac980"
+				"foreground": "#a0c980"
 			}
 		},
 		{
@@ -106,7 +106,7 @@
 				"markup.inline.raw"
 			],
 			"settings": {
-				"foreground": "#de76c6"
+				"foreground": "#de76cf"
 			}
 		},
 		{
