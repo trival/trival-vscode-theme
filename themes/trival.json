@@ -53,12 +53,16 @@
 			"name": "keywords",
 			"scope": [
 				"keyword",
+				"keyword.operator",
 				"keyword.control",
+				"punctuation.definition.keyword",
 
 				"storage",
 				"storage.type",
 				"storage.modifier",
 
+				"punctuation.separator.operator",
+				
 				"entity.name.section"
 			],
 			"settings": {
@@ -135,7 +139,6 @@
 				"meta.object-literal.key",
 				"meta.object-literal.key entity.name.function",
 
-				"entity.other.attribute-name",
 				"meta.structure.dictionary.key.python",
 				"support.function.git-rebase",
 
@@ -262,6 +265,16 @@
 			],
 			"settings": {
 				"foreground": "#96afb7"
+			}
+		},
+		{
+			"name": "style",
+			"scope": [
+				"entity.other.attribute-name",
+				"entity.other.attribute-name punctuation.definition.entity"
+			],
+			"settings": {
+				"foreground": "#e0b666"
 			}
 		}
 	]
