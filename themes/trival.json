@@ -4,7 +4,7 @@
 	"settings": [
 		{
 			"settings": {
-				"foreground": "#c5c8cf",
+				"foreground": "#cccfcb",
 				"background": "#1f2123"
 			}
 		},
@@ -62,7 +62,7 @@
 				"entity.name.section"
 			],
 			"settings": {
-				"foreground": "#56c6cd"
+				"foreground": "#60cacd"
 			}
 		},
 		{
@@ -83,7 +83,7 @@
 				"punctuation.definition.string.tag"
 			],
 			"settings": {
-				"foreground": "#95d384"
+				"foreground": "#9cd370"
 			}
 		},
 		{
@@ -106,7 +106,7 @@
 				"markup.inline.raw"
 			],
 			"settings": {
-				"foreground": "#de76cf"
+				"foreground": "#d076cf"
 			}
 		},
 		{
@@ -221,7 +221,7 @@
 				"punctuation.section.embedded.end.metatag.php"
 			],
 			"settings": {
-				"foreground": "#80a7ee"
+				"foreground": "#86abef"
 			}
 		},
 		{
@@ -234,7 +234,7 @@
 				"support.constant.handlebars"
 			],
 			"settings": {
-				"foreground": "#a0c9de"
+				"foreground": "#a0cbd0"
 			}
 		},
 		{
@@ -261,7 +261,7 @@
 				"punctuation.definition.tag"
 			],
 			"settings": {
-				"foreground": "#92a0c0"
+				"foreground": "#96afb7"
 			}
 		}
 	]
