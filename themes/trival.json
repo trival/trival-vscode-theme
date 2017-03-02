@@ -39,7 +39,7 @@
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
-				
+
 				"terminator",
 				"comma",
 				"punctuation.separator",
@@ -54,7 +54,7 @@
 			"scope": [
 				"keyword",
 				"keyword.control",
-				
+
 				"storage",
 				"storage.type",
 				"storage.modifier",
@@ -74,7 +74,7 @@
 				"constant.other.color.rgb-value",
 				"constant.other.rgb-value",
 				"support.constant.color",
-				
+
 				"string",
 				"string.tag",
 				"string.value",
@@ -83,7 +83,7 @@
 				"punctuation.definition.string.tag"
 			],
 			"settings": {
-				"foreground": "#9cd370"
+				"foreground": "#9dd076"
 			}
 		},
 		{
@@ -91,22 +91,22 @@
 				"constant",
 				"constant.numeric",
 				"constant.language",
-				
+
 				"constant.sha.git-rebase",
-				
+
 				"markup.inserted",
-				
+
 				"meta.preprocessor.numeric",
-				
+
 				"keyword.other.unit",
 				"variable.other.constant",
 				"support.constant.property",
-				
+
 				"markup.deleted",
 				"markup.inline.raw"
 			],
 			"settings": {
-				"foreground": "#d076cf"
+				"foreground": "#d578cc"
 			}
 		},
 		{
@@ -120,25 +120,25 @@
 				"variable.object-binding-pattern-variable",
 				"variable.array-binding-pattern",
 				"variable.array-binding-pattern-variable",
-				
+
 				"variable.css",
 				"variable.scss",
 				"variable.other.less",
-				
+
 				"meta.definition.variable",
 				"meta.definition.variable.ts",
 				"meta.definition.variable.js",
-				
+
 				"support.type.vendored.property-name",
 				"support.type.property-name",
-				
+
 				"meta.object-literal.key",
 				"meta.object-literal.key entity.name.function",
-				
+
 				"entity.other.attribute-name",
 				"meta.structure.dictionary.key.python",
 				"support.function.git-rebase",
-				
+
 				"object-literal.member.key",
 				"support.property-name"
 			],
@@ -154,18 +154,18 @@
 				"function.type.entity.name",
 				"function.support.type",
 				"support.class",
-				
+
 				"support.math",
 				"constant.support.math",
 				"support.dom",
 				"punctuation.definition.type.parameters",
-				
+
 				"meta.type meta.brace.square",
 				"punctuation.definition.binding-pattern",
 				"punctuation.definition.array.end",
 				"punctuation.definition.array.begin",
 				"meta.array.literal meta.brace.square",
-				
+
 				"meta.return-type",
 				"support.class",
 				"support.type",
@@ -192,7 +192,7 @@
 				"storage.type.object.array.groovy",
 				"storage.type.primitive.array.groovy",
 				"storage.type.primitive.groovy",
-				
+
 				"meta.return.type",
 				"meta.type.cast.expr",
 				"meta.type.new.expr",
@@ -201,22 +201,22 @@
 				"support.constant.json",
 
 				"entity.other.inherited-class",
-				
+
 				"entity.name.tag",
-				
+
 				"markup.bold",
 				"markup.heading",
 				"markup.changed",
-				
+
 				"meta.preprocessor",
 				"meta.diff.header",
-				
+
 				"punctuation.definition.template-expression.begin.ts",
 				"punctuation.definition.template-expression.end.ts",
-				
+
 				"punctuation.definition.heading",
 				"beginning.punctuation.definition.list",
-				
+
 				"punctuation.section.embedded.begin.metatag.php",
 				"punctuation.section.embedded.end.metatag.php"
 			],
