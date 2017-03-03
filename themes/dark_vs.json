@@ -9,12 +9,6 @@
 			}
 		},
 		{
-			"scope": "constant.regexp",
-			"settings": {
-				"foreground": "#646695"
-			}
-		},
-		{
 			"scope": "invalid",
 			"settings": {
 				"foreground": "#f44747"
@@ -30,18 +24,6 @@
 			"scope": "markup.italic",
 			"settings": {
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "beginning.punctuation.definition.list.markdown",
-			"settings": {
-				"foreground": "#6796e6"
-			}
-		},
-		{
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#d16969"
 			}
 		}
 	]

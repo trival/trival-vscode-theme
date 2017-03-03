@@ -29,7 +29,9 @@
 		{
 			"scope": [
 				"storage.modifier.import.java",
-				"storage.modifier.package.java"
+				"storage.modifier.package.java",
+				
+				"meta.template"
 			],
 			"settings": {
 				"foreground": "#c5c8ca"
@@ -95,6 +97,7 @@
 				"constant",
 				"constant.numeric",
 				"constant.language",
+				"constant.regexp",
 
 				"constant.sha.git-rebase",
 
@@ -135,6 +138,9 @@
 
 				"support.type.vendored.property-name",
 				"support.type.property-name",
+				
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.id.html",
 
 				"meta.object-literal.key",
 				"meta.object-literal.key entity.name.function",
@@ -214,9 +220,6 @@
 				"meta.preprocessor",
 				"meta.diff.header",
 
-				"punctuation.definition.template-expression.begin.ts",
-				"punctuation.definition.template-expression.end.ts",
-
 				"punctuation.definition.heading",
 				"beginning.punctuation.definition.list",
 
@@ -271,7 +274,11 @@
 			"name": "style",
 			"scope": [
 				"entity.other.attribute-name",
-				"entity.other.attribute-name punctuation.definition.entity"
+				"entity.other.attribute-name punctuation.definition.entity",
+				"string.regexp",
+
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end"
 			],
 			"settings": {
 				"foreground": "#e0b666"
