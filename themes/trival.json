@@ -68,7 +68,7 @@
 				"entity.name.section"
 			],
 			"settings": {
-				"foreground": "#60cacd"
+				"foreground": "#60cacb"
 			}
 		},
 		{
@@ -240,7 +240,7 @@
 				"support.constant.handlebars"
 			],
 			"settings": {
-				"foreground": "#a0cbd0"
+				"foreground": "#a6cfe9"
 			}
 		},
 		{
