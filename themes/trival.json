@@ -30,7 +30,7 @@
 			"scope": [
 				"storage.modifier.import.java",
 				"storage.modifier.package.java",
-				
+
 				"meta.template"
 			],
 			"settings": {
@@ -64,7 +64,7 @@
 				"storage.modifier",
 
 				"punctuation.separator.operator",
-				
+
 				"entity.name.section"
 			],
 			"settings": {
@@ -138,7 +138,7 @@
 
 				"support.type.vendored.property-name",
 				"support.type.property-name",
-				
+
 				"entity.other.attribute-name.html",
 				"entity.other.attribute-name.id.html",
 
@@ -267,7 +267,7 @@
 				"punctuation.definition.tag"
 			],
 			"settings": {
-				"foreground": "#96afb7"
+				"foreground": "#9a9cb0"
 			}
 		},
 		{
