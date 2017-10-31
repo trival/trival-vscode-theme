@@ -182,7 +182,9 @@
 			"scope": [
 				"meta.objectliteral meta.definition.method.ts entity.name.function",
 				"meta.objectliteral meta.definition.method.js entity.name.function",
-				"meta.objectliteral meta.object-literal.key entity.name.function"
+				"meta.objectliteral meta.object-literal.key entity.name.function",
+				"meta.definition.property.ts entity.name.function",
+				"meta.definition.property.js entity.name.function"
 			],
 			"settings": {
 				"foreground": "#d5b8f7",
@@ -285,8 +287,6 @@
 				"meta.definition.function.js",
 				"meta.definition.function.ts",
 				"meta.definition.method",
-				"meta.definition.property.ts entity.name.function",
-				"meta.definition.property.js entity.name.function",
 				"meta.definition.method.ts entity.name.function",
 				"meta.definition.method.js entity.name.function"
 			],
