@@ -139,7 +139,8 @@
 				"variable.other.constant",
 				"support.constant.property",
 				"markup.deleted",
-				"markup.inline.raw"
+				"markup.inline.raw",
+				"variable.other.enummember"
 			],
 			"settings": {
 				"foreground": "#d578cc"
