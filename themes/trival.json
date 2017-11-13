@@ -182,9 +182,11 @@
 		{
 			"scope": [
 				"meta.objectliteral meta.definition.method.ts entity.name.function",
+				"meta.objectliteral meta.definition.method.tsx entity.name.function",
 				"meta.objectliteral meta.definition.method.js entity.name.function",
 				"meta.objectliteral meta.object-literal.key entity.name.function",
 				"meta.definition.property.ts entity.name.function",
+				"meta.definition.property.tsx entity.name.function",
 				"meta.definition.property.js entity.name.function"
 			],
 			"settings": {
@@ -287,8 +289,10 @@
 				"meta.definition.variable entity.name.function",
 				"meta.definition.function.js",
 				"meta.definition.function.ts",
+				"meta.definition.function.tsx",
 				"meta.definition.method",
 				"meta.definition.method.ts entity.name.function",
+				"meta.definition.method.tsx entity.name.function",
 				"meta.definition.method.js entity.name.function"
 			],
 			"settings": {
