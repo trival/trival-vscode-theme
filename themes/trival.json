@@ -9,8 +9,7 @@
 		"sideBar.foreground": "#bbbbbb",
 		"terminal.background": "#171717"
 	},
-	"tokenColors": [
-		{
+	"tokenColors": [{
 			"settings": {
 				"foreground": "#cccfcbff",
 				"background": "#1f2123ff"
@@ -162,6 +161,9 @@
 				"variable.scss",
 				"variable.other.less",
 				"meta.definition.variable",
+				"meta.definition.variable variable.other.constant",
+				"meta.definition.variable.ts variable.other.constant",
+				"meta.definition.variable.js variable.other.constant",
 				"meta.definition.variable.ts",
 				"meta.definition.variable.js",
 				"support.type.vendored.property-name",
