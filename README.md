@@ -6,5 +6,5 @@ clone the repo to a directory of your choise, make a symlink to the vscode exten
 - macOs ~/.vscode/extensions
 - Windows %USERPROFILE%\.vscode\extensions
 
-On Windows (powershell):
+On Windows (powershell, with administrator rights):
 cmd /c mklink /d c:\path\to\symlink c:\target\file
