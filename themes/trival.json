@@ -277,7 +277,9 @@
 				"entity.name.function",
 				"support.function",
 				"punctuation.accessor",
-				"support.constant.handlebars"
+				"support.constant.handlebars",
+				"punctuation.decorator.ts",
+				"punctuation.decorator.js"
 			],
 			"settings": {
 				"foreground": "#a6cfe9"
