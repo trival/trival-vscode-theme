@@ -323,10 +323,12 @@
 				"entity.other.attribute-name punctuation.definition.entity",
 				"string.regexp",
 				"punctuation.definition.template-expression.begin",
-				"punctuation.definition.template-expression.end"
+				"punctuation.definition.template-expression.end",
+				"meta.class.ts meta.field.declaration.ts variable.object.property.ts",
+				"meta.class.js meta.field.declaration.js variable.object.property.js"
 			],
 			"settings": {
-				"foreground": "#e0b666"
+				"foreground": "#eeaf96"
 			}
 		},
 		{
