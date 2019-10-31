@@ -136,6 +136,8 @@
 				"meta.preprocessor.numeric",
 				"keyword.other.unit",
 				"variable.other.constant",
+				"variable.other.constant.ts",
+				"variable.other.constant.js",
 				"support.constant.property",
 				"markup.deleted",
 				"markup.inline.raw",
