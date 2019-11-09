@@ -136,15 +136,13 @@
 				"meta.preprocessor.numeric",
 				"keyword.other.unit",
 				"variable.other.constant",
-				"variable.other.constant.ts",
-				"variable.other.constant.js",
 				"support.constant.property",
 				"markup.deleted",
 				"markup.inline.raw",
 				"variable.other.enummember"
 			],
 			"settings": {
-				"foreground": "#d578cc"
+				"foreground": "#da7cd7"
 			}
 		},
 		{
@@ -163,9 +161,9 @@
 				"variable.scss",
 				"variable.other.less",
 				"meta.definition.variable",
-				"meta.definition.variable variable.other.constant",
-				"meta.definition.variable.ts variable.other.constant",
-				"meta.definition.variable.js variable.other.constant",
+				// "meta.definition.variable variable.other.constant",
+				// "meta.definition.variable.ts variable.other.constant",
+				// "meta.definition.variable.js variable.other.constant",
 				"meta.definition.variable.ts",
 				"meta.definition.variable.js",
 				"support.type.vendored.property-name",
@@ -173,7 +171,6 @@
 				"entity.other.attribute-name.html",
 				"entity.other.attribute-name.id.html",
 				"meta.object-literal.key",
-				"meta.object-literal.key entity.name.function",
 				"meta.structure.dictionary.key.python",
 				"support.function.git-rebase",
 				"object-literal.member.key",
@@ -185,13 +182,14 @@
 		},
 		{
 			"scope": [
-				"meta.objectliteral meta.definition.method.ts entity.name.function",
-				"meta.objectliteral meta.definition.method.tsx entity.name.function",
-				"meta.objectliteral meta.definition.method.js entity.name.function",
-				"meta.objectliteral meta.object-literal.key entity.name.function",
-				"meta.definition.property.ts entity.name.function",
-				"meta.definition.property.tsx entity.name.function",
-				"meta.definition.property.js entity.name.function"
+				// "meta.objectliteral meta.definition.method.ts entity.name.function",
+				// "meta.objectliteral meta.definition.method.tsx entity.name.function",
+				// "meta.objectliteral meta.definition.method.js entity.name.function",
+				// "meta.objectliteral meta.object-literal.key entity.name.function",
+				// "meta.definition.property.ts entity.name.function",
+				// "meta.definition.property.tsx entity.name.function",
+				// "meta.definition.property.js entity.name.function"
+				"meta.interface entity.name.function"
 			],
 			"settings": {
 				"foreground": "#d5b8f7",
@@ -299,7 +297,9 @@
 				"meta.definition.method",
 				"meta.definition.method.ts entity.name.function",
 				"meta.definition.method.tsx entity.name.function",
-				"meta.definition.method.js entity.name.function"
+				"meta.definition.method.js entity.name.function",
+				"meta.definition.method.jsx entity.name.function",
+				"meta.object-literal.key entity.name.function"
 			],
 			"settings": {
 				"foreground": "#e0c393",
