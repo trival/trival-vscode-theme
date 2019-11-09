@@ -100,7 +100,7 @@
 				"entity.name.section"
 			],
 			"settings": {
-				"foreground": "#60cfcf"
+				"foreground": "#53cfcf"
 			}
 		},
 		{
@@ -268,7 +268,7 @@
 				"punctuation.section.embedded.end.metatag.php"
 			],
 			"settings": {
-				"foreground": "#86abef"
+				"foreground": "#83a8ef"
 			}
 		},
 		{
