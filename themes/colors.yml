@@ -16,5 +16,8 @@ yellow-deep: #f9ef28
 red: #f98099
 red-deep: #dd506f
 gray: #60606f
-gray-light: #92afb7
+gray-light: #9a9cb0
 brown: #d0a080
+
+background: #1f2123"
+foreground: #cccfcb"
