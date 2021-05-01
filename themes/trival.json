@@ -2,7 +2,7 @@
 	"name": "Trival Colors Dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1f2123",
+		"editor.background": "#1F2528",
 		"editor.foreground": "#cccfcb",
 		"activityBar.background": "#171717",
 		"sideBar.background": "#171717",
