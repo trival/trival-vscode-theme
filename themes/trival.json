@@ -108,7 +108,8 @@
       "scope": [
         "meta.definition entity.name.function",
         "punctuation.decorator",
-        "meta.decorator entity.name.function"
+        "meta.decorator entity.name.function",
+        "entity.name.class.declaration"
       ],
       "settings": {
         "foreground": "#e0c393"
@@ -121,7 +122,6 @@
         "constant.regexp",
         "entity.other.attribute-name",
         "entity.name.package",
-        "entity.name.class.declaration",
         // "entity.other.attribute-name punctuation.definition.entity",
         // "punctuation.definition.template-expression.begin",
         // "punctuation.definition.template-expression.end",
