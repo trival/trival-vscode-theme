@@ -1,22 +1,25 @@
 {
-    "name": "trival-theme",
-    "displayName": "trival colors",
-    "description": "A color theme for vscode",
-    "version": "0.0.1",
-    "publisher": "trival",
-    "engines": {
-        "vscode": "^1.7.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "trival colors",
-                "uiTheme": "vs-dark",
-                "path": "./themes/trival.json"
-            }
-        ]
-    }
+  "name": "trival-theme",
+  "displayName": "trival colors",
+  "description": "A color theme for vscode",
+  "version": "0.0.1",
+  "publisher": "trival",
+  "engines": {
+    "vscode": "^1.7.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "trival colors",
+        "uiTheme": "vs-dark",
+        "path": "./themes/trival.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "prettier": "^2.3.0"
+  }
 }
