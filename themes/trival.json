@@ -72,6 +72,7 @@
         "meta.object-literal.key",
         "meta.interface variable",
         "meta.type variable",
+        "support.type.property-name",
 
         "meta.interface meta.definition entity.name.function",
         "meta.field meta.definition entity.name.function"
