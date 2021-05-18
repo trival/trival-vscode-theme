@@ -90,7 +90,8 @@
         "support.type",
         "entity.name.class",
         "entity.name.type",
-        "support.class"
+        "support.class",
+        "entity.other.inherited-class"
       ],
       "settings": {
         "foreground": "#83a8ef"
@@ -133,9 +134,16 @@
     },
     {
       "name": "red",
-      "scope": ["entity.name.tag"],
+      "scope": ["entity.name.tag", "entity.name.tag support.class"],
       "settings": {
         "foreground": "#f980aa"
+      }
+    },
+    {
+      "name": "dark-purple",
+      "scope": ["punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#9a6fc8"
       }
     },
     {
@@ -147,7 +155,7 @@
     },
     {
       "name": "italic",
-      "scope": ["entity.other.attribute-name"],
+      "scope": ["entity.other.attribute-name", "entity.name.tag"],
       "settings": {
         "fontStyle": "italic"
       }
