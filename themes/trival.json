@@ -13,6 +13,13 @@
   },
   "tokenColors": [
     {
+      "name": "white - override template string coloring",
+      "scope": ["variable.other"],
+      "settings": {
+        "foreground": "#cccfcb"
+      }
+    },
+    {
       "name": "gray",
       "scope": [
         "comment",
@@ -47,6 +54,7 @@
         "string.value",
         "punctuation.definition.string"
       ],
+
       "settings": {
         "foreground": "#9dd076"
       }
@@ -112,7 +120,7 @@
         "meta.decorator entity.name.function"
       ],
       "settings": {
-        "foreground": "#e0c393"
+        "foreground": "#e0cb93"
       }
     },
     {
@@ -126,7 +134,8 @@
         // "entity.other.attribute-name punctuation.definition.entity",
         // "punctuation.definition.template-expression.begin",
         // "punctuation.definition.template-expression.end",
-        "meta.class meta.field.declaration variable"
+        "meta.class meta.field.declaration variable",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "#eeaf96"
