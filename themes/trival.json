@@ -107,18 +107,18 @@
     },
     {
       "name": "blue-light",
-      "scope": ["entity.name.function", "support.function"],
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "punctuation.decorator"
+      ],
       "settings": {
         "foreground": "#a6cfe9"
       }
     },
     {
       "name": "light orange",
-      "scope": [
-        "meta.definition entity.name.function",
-        "punctuation.decorator",
-        "meta.decorator entity.name.function"
-      ],
+      "scope": ["meta.definition entity.name.function"],
       "settings": {
         "foreground": "#e0cb93"
       }
@@ -131,11 +131,9 @@
         "entity.other.attribute-name",
         "entity.name.package",
         "entity.name.class.declaration",
-        // "entity.other.attribute-name punctuation.definition.entity",
-        // "punctuation.definition.template-expression.begin",
-        // "punctuation.definition.template-expression.end",
         "meta.class meta.field.declaration variable",
         "punctuation.definition.template-expression"
+        // "entity.other.attribute-name punctuation.definition.entity",
       ],
       "settings": {
         "foreground": "#eeaf96"
@@ -180,7 +178,6 @@
         "punctuation.separator",
         "punctuation.colon",
         "punctuation.operation"
-        // "meta.selector",
       ],
       "settings": {
         "foreground": "#8393b6"
