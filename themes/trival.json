@@ -180,7 +180,11 @@
     },
     {
       "name": "italic",
-      "scope": ["entity.other.attribute-name", "entity.name.tag"],
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.name.tag",
+        "entity.name.function.macro.rust"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
