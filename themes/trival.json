@@ -2,7 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Trival Colors Dark",
   "type": "dark",
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   "colors": {
     "editor.background": "#1F2528",
     "editor.foreground": "#cccfcb",
@@ -10,6 +10,11 @@
     "sideBar.background": "#171717",
     "sideBar.foreground": "#bbbbbb",
     "terminal.background": "#171717"
+  },
+  "semanticTokenColors": {
+    "function.declaration": "#e0cb93",
+    "method.declaration": "#e0cb93",
+    "macro": "#eeaf96"
   },
   "tokenColors": [
     {
@@ -83,7 +88,8 @@
         "support.type.property-name",
 
         "meta.interface meta.definition entity.name.function",
-        "meta.field meta.definition entity.name.function"
+        "meta.field meta.definition entity.name.function",
+        "variable.language.self"
       ],
       "settings": {
         "foreground": "#d5b8f7"
@@ -99,7 +105,8 @@
         "entity.name.class",
         "entity.name.type",
         "support.class",
-        "entity.other.inherited-class"
+        "entity.other.inherited-class",
+        "entity.name.module"
       ],
       "settings": {
         "foreground": "#83a8ef"
@@ -118,7 +125,10 @@
     },
     {
       "name": "light orange",
-      "scope": ["meta.definition entity.name.function"],
+      "scope": [
+        "meta.definition entity.name.function",
+        "meta.function.definition entity.name.function"
+      ],
       "settings": {
         "foreground": "#e0cb93"
       }
@@ -132,7 +142,12 @@
         "entity.name.package",
         "entity.name.class.declaration",
         "meta.class meta.field.declaration variable",
-        "punctuation.definition.template-expression"
+        "punctuation.definition.template-expression",
+        "meta.macro.rust",
+        "meta.attribute.rust",
+        "entity.name.function.macro.rust",
+        "punctuation.definition.attribute.rust",
+        "punctuation.brackets.attribute.rust"
         // "entity.other.attribute-name punctuation.definition.entity",
       ],
       "settings": {
@@ -155,7 +170,10 @@
     },
     {
       "name": "bold",
-      "scope": ["meta.definition entity.name.function"],
+      "scope": [
+        "meta.definition entity.name.function",
+        "meta.function.definition entity.name.function"
+      ],
       "settings": {
         "fontStyle": "bold"
       }
@@ -172,12 +190,15 @@
       "scope": [
         "meta.brace",
         "meta.bracket",
+        "punctuation.brackets",
         "punctuation.section",
         "punctuation.definition",
         "punctuation.accessor",
         "punctuation.separator",
         "punctuation.colon",
-        "punctuation.operation"
+        "punctuation.operation",
+        "punctuation.semi",
+        "punctuation.comma"
       ],
       "settings": {
         "foreground": "#8393b6"
