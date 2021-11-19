@@ -14,7 +14,8 @@
   "semanticTokenColors": {
     "function.declaration": "#e0cb93",
     "method.declaration": "#e0cb93",
-    "macro": "#eeaf96"
+    "macro": "#eeaf96",
+    "enumMember": "#da7cd7"
   },
   "tokenColors": [
     {
