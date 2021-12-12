@@ -12,8 +12,8 @@
     "terminal.background": "#171717"
   },
   "semanticTokenColors": {
-    "function.declaration": "#e0cb93",
-    "method.declaration": "#e0cb93",
+    "function.declaration": { "foreground": "#e0cb93", "bold": true },
+    "method.declaration": { "foreground": "#e0cb93", "bold": true },
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
