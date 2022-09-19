@@ -127,6 +127,7 @@
     {
       "name": "light orange",
       "scope": [
+        "entity.name.function.declaration",
         "meta.definition entity.name.function",
         "meta.function.definition entity.name.function"
       ],
@@ -172,6 +173,7 @@
     {
       "name": "bold",
       "scope": [
+        "entity.name.function.declaration",
         "meta.definition entity.name.function",
         "meta.function.definition entity.name.function"
       ],
