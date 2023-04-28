@@ -12,32 +12,51 @@
     "terminal.background": "#171717"
   },
   "semanticTokenColors": {
+    "type": "#83a8ef",
+    "variable": { "underline": true },
+    "variable:rust": { "underline": false },
+    "variable.readonly": { "underline": false },
+    "variable.mutable": { "underline": true },
+    "variable.declaration": { "foreground": "#d5b8f7" },
+    "variable.defaultLibrary": { "foreground": "#da7cd7", "underline": false },
+    "function": { "foreground": "#a6cfe9" },
+    "method": { "foreground": "#a6cfe9" },
     "function.declaration": { "foreground": "#e0cb93", "bold": true },
     "method.declaration": { "foreground": "#e0cb93", "bold": true },
+    "function.definition": { "foreground": "#e0cb93", "bold": true },
+    "method.definition": { "foreground": "#e0cb93", "bold": true },
+    "parameter": "#d5b8f7",
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
   "tokenColors": [
     {
       "name": "white - override template string coloring",
-      "scope": ["variable.other"],
       "settings": {
         "foreground": "#cccfcb"
-      }
+      },
+      "scope": [
+        //"variable.other"
+      ]
     },
+
     {
       "name": "gray",
+      "settings": {
+        "foreground": "#60606f"
+      },
       "scope": [
         "comment",
         "punctuation.terminator",
         "punctuation.definition.comment"
-      ],
-      "settings": {
-        "foreground": "#60606f"
-      }
+      ]
     },
+
     {
       "name": "turquoise",
+      "settings": {
+        "foreground": "#53cfcf"
+      },
       "scope": [
         "keyword",
         "keyword.operator",
@@ -47,11 +66,9 @@
         "storage",
         "storage.type",
         "storage.modifier"
-      ],
-      "settings": {
-        "foreground": "#53cfcf"
-      }
+      ]
     },
+
     {
       "name": "green",
       "scope": [
@@ -65,20 +82,20 @@
         "foreground": "#9dd076"
       }
     },
+
     {
       "name": "purple",
-      "scope": [
-        "constant",
-        "support.constant",
-        "entity.name.import",
-        "variable.other.constant"
-      ],
       "settings": {
         "foreground": "#da7cd7"
-      }
+      },
+      "scope": ["constant", "support.constant", "entity.name.import"]
     },
+
     {
       "name": "purple light",
+      "settings": {
+        "foreground": "#d5b8f7"
+      },
       "scope": [
         "variable.parameter",
         "variable.other.declaration",
@@ -91,14 +108,14 @@
         "meta.interface meta.definition entity.name.function",
         "meta.field meta.definition entity.name.function",
         "variable.language.self"
-      ],
-      "settings": {
-        "foreground": "#d5b8f7"
-      }
+      ]
     },
 
     {
       "name": "blue",
+      "settings": {
+        "foreground": "#83a8ef"
+      },
       "scope": [
         "meta.type",
         "meta.interface",
@@ -108,22 +125,21 @@
         "support.class",
         "entity.other.inherited-class",
         "entity.name.module"
-      ],
-      "settings": {
-        "foreground": "#83a8ef"
-      }
+      ]
     },
+
     {
       "name": "blue-light",
+      "settings": {
+        "foreground": "#a6cfe9"
+      },
       "scope": [
         "entity.name.function",
         "support.function",
         "punctuation.decorator"
-      ],
-      "settings": {
-        "foreground": "#a6cfe9"
-      }
+      ]
     },
+
     {
       "name": "light orange",
       "scope": [
@@ -135,8 +151,12 @@
         "foreground": "#e0cb93"
       }
     },
+
     {
       "name": "orange",
+      "settings": {
+        "foreground": "#eeaf96"
+      },
       "scope": [
         "string.regexp",
         "constant.regexp",
@@ -151,49 +171,54 @@
         "punctuation.definition.attribute.rust",
         "punctuation.brackets.attribute.rust"
         // "entity.other.attribute-name punctuation.definition.entity",
-      ],
-      "settings": {
-        "foreground": "#eeaf96"
-      }
+      ]
     },
+
     {
       "name": "red",
-      "scope": ["entity.name.tag", "entity.name.tag support.class"],
       "settings": {
         "foreground": "#f980aa"
-      }
+      },
+      "scope": ["entity.name.tag", "entity.name.tag support.class"]
     },
+
     {
       "name": "dark-purple",
-      "scope": ["punctuation.definition.tag"],
       "settings": {
         "foreground": "#9a6fc8"
-      }
+      },
+      "scope": ["punctuation.definition.tag"]
     },
+
     {
       "name": "bold",
+      "settings": {
+        "fontStyle": "bold"
+      },
       "scope": [
         "entity.name.function.declaration",
         "meta.definition entity.name.function",
         "meta.function.definition entity.name.function"
-      ],
-      "settings": {
-        "fontStyle": "bold"
-      }
+      ]
     },
+
     {
       "name": "italic",
+      "settings": {
+        "fontStyle": "italic"
+      },
       "scope": [
         "entity.other.attribute-name",
         "entity.name.tag",
         "entity.name.function.macro.rust"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
+      ]
     },
+
     {
       "name": "noise",
+      "settings": {
+        "foreground": "#8393b6"
+      },
       "scope": [
         "meta.brace",
         "meta.bracket",
@@ -206,10 +231,7 @@
         "punctuation.operation",
         "punctuation.semi",
         "punctuation.comma"
-      ],
-      "settings": {
-        "foreground": "#8393b6"
-      }
+      ]
     },
 
     // === some old colors ===
