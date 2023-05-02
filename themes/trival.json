@@ -17,10 +17,10 @@
     "variable:rust": { "underline": false },
     "variable.readonly": { "underline": false },
     "variable.mutable": { "underline": true },
-    "variable.declaration": { "foreground": "#a3dfd3" },
-    "variable.readonly.declaration": { "foreground": "#a3dfd3"},
+    "variable.declaration": { "foreground": "#d5b8f7" },
+    "variable.readonly.declaration": { "foreground": "#d5b8f7"},
     "variable.defaultLibrary": { "foreground": "#da7cd7", "underline": false },
-    "property.declaration": { "foreground": "#a3dfd3" },
+    "property.declaration": { "foreground": "#d5b8f7" },
     "class.defaultLibrary": { "foreground": "#da7cd7" },
     "function": { "foreground": "#a4cef5" },
     "method": { "foreground": "#a4cef5" },
@@ -28,7 +28,7 @@
     "method.declaration": { "foreground": "#e0cb93" },
     "function.definition": { "foreground": "#e0cb93" },
     "method.definition": { "foreground": "#e0cb93" },
-    "parameter": "#d5b8f7",
+    "parameter": "#a3dfd3",
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
@@ -100,18 +100,6 @@
         "foreground": "#d5b8f7"
       },
       "scope": [
-        "variable.parameter",
-        "variable.language.self",
-        "variable.language.this"
-      ]
-    },
-
-    {
-      "name": "turquoise light",
-      "settings": {
-        "foreground": "#a3dfd3"
-      },
-      "scope": [
         "meta.definition.variable",
         "variable.other.declaration",
 
@@ -123,6 +111,18 @@
 
         "meta.interface meta.definition entity.name.function",
         "meta.field meta.definition entity.name.function",
+      ]
+    },
+
+    {
+      "name": "turquoise light",
+      "settings": {
+        "foreground": "#a3dfd3"
+      },
+      "scope": [
+        "variable.parameter",
+        "variable.language.self",
+        "variable.language.this"
       ]
     },
 
