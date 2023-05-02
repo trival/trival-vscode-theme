@@ -39,7 +39,7 @@
         "foreground": "#cccfcb"
       },
       "scope": [
-        //"variable.other"
+        "string variable.other"
       ]
     },
 
