@@ -18,6 +18,7 @@
     "variable.readonly": { "underline": false },
     "variable.mutable": { "underline": true },
     "variable.declaration": { "foreground": "#d5b8f7" },
+    "variable.readonly.declaration": { "foreground": "#da7cd7"},
     "variable.defaultLibrary": { "foreground": "#da7cd7", "underline": false },
     "property.declaration": { "foreground": "#d5b8f7" },
     "class.defaultLibrary": { "foreground": "#da7cd7" },
