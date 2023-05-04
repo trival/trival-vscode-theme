@@ -28,7 +28,7 @@
     "method.declaration": { "foreground": "#e0cb93" },
     "function.definition": { "foreground": "#e0cb93" },
     "method.definition": { "foreground": "#e0cb93" },
-    "parameter": "#a0dcd0",
+    "parameter": "#a6dcc0",
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
@@ -117,7 +117,7 @@
     {
       "name": "turquoise light",
       "settings": {
-        "foreground": "#a0dcd0"
+        "foreground": "#a6dcc0"
       },
       "scope": [
         "variable.parameter",
