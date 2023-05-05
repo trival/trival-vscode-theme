@@ -17,8 +17,8 @@
     "variable:rust": { "underline": false },
     "variable.readonly": { "underline": false },
     "variable.mutable": { "underline": true },
-    "variable.declaration": { "foreground": "#d5b8f7" },
-    "variable.readonly.declaration": { "foreground": "#d5b8f7"},
+    "variable.declaration": { "foreground": "#a5dbbe" },
+    "variable.readonly.declaration": { "foreground": "#a5dbbe"},
     "variable.defaultLibrary": { "foreground": "#da7cd7", "underline": false },
     "property.declaration": { "foreground": "#d5b8f7" },
     "class.defaultLibrary": { "foreground": "#da7cd7" },
@@ -28,7 +28,7 @@
     "method.declaration": { "foreground": "#e0cb93" },
     "function.definition": { "foreground": "#e0cb93" },
     "method.definition": { "foreground": "#e0cb93" },
-    "parameter": "#a6dcc0",
+    "parameter": "#d5b8f7",
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
@@ -100,8 +100,9 @@
         "foreground": "#d5b8f7"
       },
       "scope": [
-        "meta.definition.variable",
-        "variable.other.declaration",
+        "variable.parameter",
+        "variable.language.self",
+        "variable.language.this",
 
         "support.type.property-name",
         "meta.object-literal.key",
@@ -117,12 +118,11 @@
     {
       "name": "turquoise light",
       "settings": {
-        "foreground": "#a6dcc0"
+        "foreground": "#a5dbbe"
       },
       "scope": [
-        "variable.parameter",
-        "variable.language.self",
-        "variable.language.this"
+        "meta.definition.variable",
+        "variable.other.declaration",
       ]
     },
 
