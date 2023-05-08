@@ -7,6 +7,9 @@
     "editor.background": "#1F2528",
     "editor.foreground": "#cccfcb",
     "activityBar.background": "#171717",
+    "tab.inactiveBackground": "#171717",
+    "editorGroupHeader.tabsBackground": "#171717",
+    "editorGroupHeader.noTabsBackground": "#171717",
     "sideBar.background": "#171717",
     "sideBar.foreground": "#bbbbbb",
     "terminal.background": "#171717"
