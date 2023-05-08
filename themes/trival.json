@@ -10,6 +10,7 @@
     "tab.inactiveBackground": "#171717",
     "editorGroupHeader.tabsBackground": "#171717",
     "editorGroupHeader.noTabsBackground": "#171717",
+    "sideBarSectionHeader.background": "#222222",
     "sideBar.background": "#171717",
     "sideBar.foreground": "#bbbbbb",
     "terminal.background": "#171717"
