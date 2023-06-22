@@ -10,7 +10,7 @@
     "tab.inactiveBackground": "#171717",
     "editorGroupHeader.tabsBackground": "#171717",
     "editorGroupHeader.noTabsBackground": "#171717",
-    "sideBarSectionHeader.background": "#222222",
+    "sideBarSectionHeader.background": "#1F2528",
     "sideBar.background": "#171717",
     "sideBar.foreground": "#bbbbbb",
     "terminal.background": "#171717"
@@ -21,8 +21,8 @@
     "variable:rust": { "underline": false },
     "variable.readonly": { "underline": false },
     "variable.mutable": { "underline": true },
-    "variable.declaration": { "foreground": "#a5dbbe" },
-    "variable.readonly.declaration": { "foreground": "#a5dbbe"},
+    "variable.declaration": { "foreground": "#dab3f3" },
+    "variable.readonly.declaration": { "foreground": "#dab3f3"},
     "variable.defaultLibrary": { "foreground": "#da7cd7", "underline": false },
     "property.declaration": { "foreground": "#dab3f3" },
     "class.defaultLibrary": { "foreground": "#da7cd7" },
@@ -32,7 +32,7 @@
     "method.declaration": { "foreground": "#e0cb93" },
     "function.definition": { "foreground": "#e0cb93" },
     "method.definition": { "foreground": "#e0cb93" },
-    "parameter": "#dab3f3",
+    "parameter": "#9adbc2",
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
@@ -105,7 +105,8 @@
         "foreground": "#dab3f3"
       },
       "scope": [
-        "variable.parameter",
+        "meta.definition.variable",
+        "variable.other.declaration",
         "variable.language.self",
         "variable.language.this",
 
@@ -123,11 +124,10 @@
     {
       "name": "turquoise light",
       "settings": {
-        "foreground": "#a5dbbe"
+        "foreground": "#9adbc2"
       },
       "scope": [
-        "meta.definition.variable",
-        "variable.other.declaration",
+        "variable.parameter",
       ]
     },
 
