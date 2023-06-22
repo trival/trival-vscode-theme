@@ -30,9 +30,10 @@
     "method": { "foreground": "#a6cef2" },
     "function.declaration": { "foreground": "#e0cb93" },
     "method.declaration": { "foreground": "#e0cb93" },
+    "method.declaration.markup.underline": { "foreground": "#e0cb93", "bold": true },
     "function.definition": { "foreground": "#e0cb93" },
     "method.definition": { "foreground": "#e0cb93" },
-    "parameter": "#9adbc2",
+    "parameter": "#9bdcc3",
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
@@ -124,7 +125,7 @@
     {
       "name": "turquoise light",
       "settings": {
-        "foreground": "#9adbc2"
+        "foreground": "#9bdcc3"
       },
       "scope": [
         "variable.parameter",
