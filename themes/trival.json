@@ -33,7 +33,7 @@
     "method.declaration.markup.underline": { "foreground": "#e0cb93", "bold": true },
     "function.definition": { "foreground": "#e0cb93" },
     "method.definition": { "foreground": "#e0cb93" },
-    "parameter": "#9bdcc3",
+    "parameter": "#9bdac3",
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
@@ -125,7 +125,7 @@
     {
       "name": "turquoise light",
       "settings": {
-        "foreground": "#9bdcc3"
+        "foreground": "#9bdac3"
       },
       "scope": [
         "variable.parameter",
