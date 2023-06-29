@@ -33,7 +33,7 @@
     "method.declaration.markup.underline": { "foreground": "#e0cb93", "bold": true },
     "function.definition": { "foreground": "#e0cb93" },
     "method.definition": { "foreground": "#e0cb93" },
-    "parameter": "#9bdac3",
+    "parameter": { "foreground": "#9bdac3", "italic": true },
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
@@ -229,6 +229,7 @@
         "fontStyle": "italic"
       },
       "scope": [
+        "variable.parameter",
         "entity.other.attribute-name",
         "entity.name.tag",
         "entity.name.function.macro.rust"
