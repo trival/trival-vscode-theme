@@ -19,6 +19,7 @@
     "type": "#83a8ef",
     "variable": { "underline": true },
     "variable:rust": { "underline": false },
+    "variable:fsharp": { "underline": false },
     "variable.readonly": { "underline": false },
     "variable.mutable": { "underline": true },
     "variable.declaration": { "foreground": "#dab3f3" },
@@ -119,7 +120,9 @@
         "support.type.property-name",
 
         "meta.interface meta.definition entity.name.function",
-        "meta.field meta.definition entity.name.function"
+        "meta.field meta.definition entity.name.function",
+
+        "binding.fsharp variable.fsharp"
       ]
     },
 
