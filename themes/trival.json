@@ -19,6 +19,7 @@
     "type": "#83a8ef",
     "variable": { "underline": true },
     "variable:rust": { "underline": false },
+    "variable:glsl": { "underline": false },
     "variable:fsharp": { "underline": false },
     "variable.readonly": { "underline": false },
     "variable.mutable": { "underline": true },
