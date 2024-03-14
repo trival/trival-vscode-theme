@@ -123,7 +123,8 @@
         "meta.interface meta.definition entity.name.function",
         "meta.field meta.definition entity.name.function",
 
-        "binding.fsharp variable.fsharp"
+        "binding.fsharp variable.fsharp",
+        "markup.inline.raw.string.markdown"
       ]
     },
 
@@ -203,7 +204,11 @@
       "settings": {
         "foreground": "#f980aa"
       },
-      "scope": ["entity.name.tag", "entity.name.tag support.class"]
+      "scope": [
+        "entity.name.tag",
+        "entity.name.tag support.class",
+        "markup.heading.markdown"
+      ]
     },
 
     {
@@ -224,6 +229,8 @@
         "meta.definition entity.name.function",
         "meta.function.definition entity.name.function",
 
+        "markup.heading.markdown",
+        "markup.bold",
         "strong"
       ]
     },
