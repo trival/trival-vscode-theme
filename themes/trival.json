@@ -149,7 +149,8 @@
         "entity.name.type",
         "support.class",
         "entity.other.inherited-class",
-        "entity.name.module"
+        "entity.name.module",
+        "markup.underline.link"
       ]
     },
 
