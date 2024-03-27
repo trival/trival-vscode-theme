@@ -26,6 +26,7 @@
     "variable.declaration": { "foreground": "#dab3f3" },
     "variable.readonly.declaration": { "foreground": "#dab3f3" },
     "variable.defaultLibrary": { "foreground": "#da7cd7", "underline": false },
+    "variable.constant.declaration": { "foreground": "#da7cd7" },
     "property.declaration": { "foreground": "#dab3f3" },
     "class.defaultLibrary": { "foreground": "#da7cd7" },
     "function": { "foreground": "#a6cef2" },
@@ -38,7 +39,8 @@
     },
     "function.definition": { "foreground": "#e0cb93" },
     "method.definition": { "foreground": "#e0cb93" },
-    "parameter": { "foreground": "#9bdac3", "italic": true },
+    // "parameter": { "foreground": "#96d2b3", "italic": true },
+    "parameter": { "foreground": "#96d2b3" },
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
@@ -131,7 +133,7 @@
     {
       "name": "turquoise light",
       "settings": {
-        "foreground": "#9bdac3"
+        "foreground": "#96d2b3"
       },
       "scope": ["variable.parameter"]
     },
@@ -242,7 +244,7 @@
         "fontStyle": "italic"
       },
       "scope": [
-        "variable.parameter",
+        // "variable.parameter",
         "entity.other.attribute-name",
         "entity.name.tag",
         "entity.name.function.macro.rust",
