@@ -39,8 +39,8 @@
     },
     "function.definition": { "foreground": "#e0cb93" },
     "method.definition": { "foreground": "#e0cb93" },
-    // "parameter": { "foreground": "#96d2b3", "italic": true },
-    "parameter": { "foreground": "#96d2b3" },
+    "parameter": { "foreground": "#96d2b3", "italic": true },
+    "parameter:rust": { "foreground": "#96d2b3", "italic": false },
     "macro": "#eeaf96",
     "enumMember": "#da7cd7"
   },
