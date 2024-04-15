@@ -25,24 +25,20 @@
     "variable.mutable": { "underline": true },
     "variable.declaration": { "foreground": "#dab3f3" },
     "variable.readonly.declaration": { "foreground": "#dab3f3" },
-    "variable.defaultLibrary": { "foreground": "#da7cd7", "underline": false },
     "variable.constant.declaration": { "foreground": "#da7cd7" },
-    "property.declaration": { "foreground": "#dab3f3" },
+    "variable.defaultLibrary": { "foreground": "#da7cd7", "underline": false },
     "class.defaultLibrary": { "foreground": "#da7cd7" },
+    "enumMember": { "foreground": "#da7cd7" },
+    "property.declaration": { "foreground": "#dab3f3" },
     "function": { "foreground": "#a6cef2" },
-    "method": { "foreground": "#a6cef2" },
     "function.declaration": { "foreground": "#e0cb93" },
+    "function.definition": { "foreground": "#e0cb93", "bold": true },
+    "method": { "foreground": "#a6cef2" },
     "method.declaration": { "foreground": "#e0cb93" },
-    "method.declaration.markup.underline": {
-      "foreground": "#e0cb93",
-      "bold": true
-    },
-    "function.definition": { "foreground": "#e0cb93" },
-    "method.definition": { "foreground": "#e0cb93" },
-    "parameter": { "foreground": "#96d2b3", "italic": true },
-    "parameter:rust": { "foreground": "#96d2b3", "italic": false },
-    "macro": "#eeaf96",
-    "enumMember": "#da7cd7"
+    "method.declaration:rust": { "foreground": "#e0cb93", "bold": true },
+    "method.definition": { "foreground": "#e0cb93", "bold": true },
+    "parameter": { "foreground": "#99d2b0" },
+    "macro": { "foreground": "#eeaf96" }
   },
   "tokenColors": [
     {
@@ -133,7 +129,7 @@
     {
       "name": "turquoise light",
       "settings": {
-        "foreground": "#96d2b3"
+        "foreground": "#99d2b0"
       },
       "scope": ["variable.parameter"]
     },
