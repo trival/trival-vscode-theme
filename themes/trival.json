@@ -37,7 +37,7 @@
     "method.declaration": { "foreground": "#e0cb93" },
     "method.declaration:rust": { "foreground": "#e0cb93", "bold": true },
     "method.definition": { "foreground": "#e0cb93", "bold": true },
-    "parameter": { "foreground": "#99d2b0" },
+    "parameter": { "foreground": "#9bd3b1" },
     "macro": { "foreground": "#eeaf96" }
   },
   "tokenColors": [
@@ -129,7 +129,7 @@
     {
       "name": "turquoise light",
       "settings": {
-        "foreground": "#99d2b0"
+        "foreground": "#9bd3b1"
       },
       "scope": ["variable.parameter"]
     },
