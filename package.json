@@ -13,9 +13,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "trival colors",
+        "label": "trival colors dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/trival.json"
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "trival colors light",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
       }
     ]
   },
