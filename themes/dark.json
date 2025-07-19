@@ -43,7 +43,19 @@
     "list.activeSelectionBackground": "#1F2528",
     "list.inactiveSelectionBackground": "#1F2528",
     "editorLineNumber.foreground": "#8393b6",
-    "editorLineNumber.activeForeground": "#cccfcb"
+    "editorLineNumber.activeForeground": "#cccfcb",
+
+    "menu.background": "#1a1d20",
+    "dropdown.background": "#1a1d20",
+    "dropdown.listBackground": "#1a1d20",
+    "dropdown.border": "#090909",
+    "quickInput.background": "#1a1d20",
+    "editorWidget.background": "#1a1d20",
+    "editorWidget.border": "#090909",
+    "notifications.background": "#1a1d20",
+    "notificationCenterHeader.background": "#1a1d20",
+
+    "input.background": "#1F2528"
   },
   "semanticTokenColors": {
     "type": "#83a8ef",
