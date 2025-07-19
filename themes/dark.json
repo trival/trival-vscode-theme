@@ -54,7 +54,8 @@
     "notifications.background": "#1a1d20",
     "notificationCenterHeader.background": "#1a1d20",
 
-    "input.background": "#1F2528"
+    "input.background": "#1F2528",
+    "editorIndentGuide.background1": "#2f393d"
   },
   "semanticTokenColors": {
     "type": "#83a8ef",
