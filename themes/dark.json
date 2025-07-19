@@ -25,14 +25,13 @@
     "statusBar.border": "#090909",
 
     "panel.background": "#151515",
-    "toolbar.background": "#1b1f20",
 
     "statusBar.background": "#151515",
     "statusBar.foreground": "#cccfcb",
 
     "editor.selectionBackground": "#1F3a48",
-    "editor.selectionHighlightBackground": "#1F3a48",
-    "editor.wordHighlightBackground": "#1F3a48",
+    "editor.selectionHighlightBackground": "#1F3a48cc",
+    "editor.wordHighlightBackground": "#1F3a48cc",
 
     "scrollbar.shadow": "#00000066",
     "widget.shadow": "#00000066",
