@@ -4,22 +4,23 @@
   "type": "light",
   "semanticHighlighting": true,
   "colors": {
-    "editor.background": "#dbdfe2",
+    // "editor.background": "#eaeaea",
+    "editor.background": "#eaeaea",
     "editor.foreground": "#31332f",
     "editor.lineHighlightBorder": "#c2ccd088",
-    "editorCursor.foreground": "#02557699",
+    "editorCursor.foreground": "#29749299",
     "editorCursor.background": "#fff",
-    "activityBar.background": "#eaeaea",
+    "activityBar.background": "#dbdfe2",
     "activityBar.foreground": "#31332f",
-    "tab.inactiveBackground": "#eaeaea",
-    "tab.activeBackground": "#dbdfe2",
+    "tab.inactiveBackground": "#dbdfe2",
+    "tab.activeBackground": "#eaeaea",
     "tab.border": "#bbb",
-    "editorGroupHeader.tabsBackground": "#eaeaea",
-    "editorGroupHeader.noTabsBackground": "#eaeaea",
-    "sideBarSectionHeader.background": "#dbdfe2",
-    "sideBar.background": "#eaeaea",
+    "editorGroupHeader.tabsBackground": "#dbdfe2",
+    "editorGroupHeader.noTabsBackground": "#dbdfe2",
+    "sideBarSectionHeader.background": "#eaeaea",
+    "sideBar.background": "#dbdfe2",
     "sideBar.foreground": "#4c4c4c",
-    "terminal.background": "#eaeaea",
+    "terminal.background": "#dbdfe2",
 
     "focusBorder": "#bbb",
     "panel.border": "#bbb",
@@ -27,12 +28,12 @@
     "editorGroup.border": "#bbb",
     "statusBar.border": "#bbb",
 
-    "panel.background": "#eaeaea",
+    "panel.background": "#dbdfe2",
 
-    "statusBar.background": "#eaeaea",
+    "statusBar.background": "#dbdfe2",
     "statusBar.foreground": "#31332f",
 
-    "editor.selectionBackground": "#b6d2e0",
+    "editor.selectionBackground": "#bddded",
     "editor.selectionHighlightBackground": "#b6d2e0cc",
     "editor.wordHighlightBackground": "#b6d2e0cc",
 
@@ -41,9 +42,9 @@
     "scrollbarSlider.background": "#fff9f280",
     "scrollbarSlider.hoverBackground": "#3f3f3f10",
 
-    "list.hoverBackground": "#dbdfe2",
-    "list.activeSelectionBackground": "#b6d2e0",
-    "list.inactiveSelectionBackground": "#b6d2e0",
+    "list.hoverBackground": "#eaeaea",
+    "list.activeSelectionBackground": "#bddded",
+    "list.inactiveSelectionBackground": "#bddded",
     "list.activeSelectionForeground": "#31332f",
     "editorLineNumber.foreground": "#48587c",
     "editorLineNumber.activeForeground": "#31332f",
@@ -58,7 +59,7 @@
     "notifications.background": "#dfe2e4",
     "notificationCenterHeader.background": "#dfe2e4",
 
-    "input.background": "#dbdfe2",
+    "input.background": "#eaeaea",
     "editorIndentGuide.background1": "#c2ccd0"
   },
   "semanticTokenColors": {
