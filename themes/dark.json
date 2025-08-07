@@ -38,9 +38,9 @@
     "scrollbarSlider.background": "#0d070080",
     "scrollbarSlider.hoverBackground": "#c0c0c010",
 
-    "list.hoverBackground": "#1F3a48",
-    "list.activeSelectionBackground": "#1F2528",
-    "list.inactiveSelectionBackground": "#1F2528",
+    "list.hoverBackground": "#1F2528",
+    "list.activeSelectionBackground": "#1F3a48",
+    "list.inactiveSelectionBackground": "#1F3a48",
     "editorLineNumber.foreground": "#8393b6",
     "editorLineNumber.activeForeground": "#cccfcb",
 
