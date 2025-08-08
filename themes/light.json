@@ -4,8 +4,7 @@
   "type": "light",
   "semanticHighlighting": true,
   "colors": {
-    // "editor.background": "#eaeaea",
-    "editor.background": "#eaeaea",
+    "editor.background": "#f1f2ef",
     "editor.foreground": "#3a3d38",
     "editor.lineHighlightBorder": "#c2ccd066",
     "editorCursor.foreground": "#29749299",
@@ -13,11 +12,11 @@
     "activityBar.background": "#dbdfe2",
     "activityBar.foreground": "#3a3d38",
     "tab.inactiveBackground": "#dbdfe2",
-    "tab.activeBackground": "#eaeaea",
+    "tab.activeBackground": "#f1f2ef",
     "tab.border": "#bbb",
     "editorGroupHeader.tabsBackground": "#dbdfe2",
     "editorGroupHeader.noTabsBackground": "#dbdfe2",
-    "sideBarSectionHeader.background": "#eaeaea",
+    "sideBarSectionHeader.background": "#f1f2ef",
     "sideBar.background": "#dbdfe2",
     "sideBar.foreground": "#4c4c4c",
     "terminal.background": "#dbdfe2",
@@ -42,7 +41,7 @@
     "scrollbarSlider.background": "#fff9f280",
     "scrollbarSlider.hoverBackground": "#3f3f3f10",
 
-    "list.hoverBackground": "#eaeaea",
+    "list.hoverBackground": "#f1f2ef",
     "list.activeSelectionBackground": "#bddded",
     "list.inactiveSelectionBackground": "#bddded",
     "list.activeSelectionForeground": "#3a3d38",
@@ -59,11 +58,11 @@
     "notifications.background": "#dfe2e4",
     "notificationCenterHeader.background": "#dfe2e4",
 
-    "input.background": "#eaeaea",
+    "input.background": "#f1f2ef",
     "editorIndentGuide.background1": "#c9d5da"
   },
   "semanticTokenColors": {
-    "type": "#4867bd",
+    "type": "#4368cc",
     "variable": { "underline": true },
     "variable:rust": { "underline": false },
     "variable:glsl": { "underline": false },
@@ -186,7 +185,7 @@
     {
       "name": "blue",
       "settings": {
-        "foreground": "#4867bd"
+        "foreground": "#4368cc"
       },
       "scope": [
         "meta.type",
