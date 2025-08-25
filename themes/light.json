@@ -38,8 +38,8 @@
 
     "scrollbar.shadow": "#00000022",
     "widget.shadow": "#00000022",
-    "scrollbarSlider.background": "#fff9f280",
-    "scrollbarSlider.hoverBackground": "#3f3f3f10",
+    "scrollbarSlider.background": "#7bd3ff70",
+    "scrollbarSlider.hoverBackground": "#7bd3ff70",
 
     "list.hoverBackground": "#f1f2ef",
     "list.activeSelectionBackground": "#bddded",
@@ -62,24 +62,24 @@
     "editorIndentGuide.background1": "#c9d5da"
   },
   "semanticTokenColors": {
-    "type": "#4368cc",
+    "type": "#4669dc",
     "variable": { "underline": true },
     "variable:rust": { "underline": false },
     "variable:glsl": { "underline": false },
     "variable:fsharp": { "underline": false },
     "variable.readonly": { "underline": false },
     "variable.mutable": { "underline": true },
-    "variable.declaration": { "foreground": "#72458e" },
-    "variable.readonly.declaration": { "foreground": "#72458e" },
+    "variable.declaration": { "foreground": "#723a95" },
+    "variable.readonly.declaration": { "foreground": "#723a95" },
     "variable.constant.declaration": { "foreground": "#c44dc0" },
     "variable.defaultLibrary": { "foreground": "#c44dc0", "underline": false },
     "class.defaultLibrary": { "foreground": "#c44dc0" },
     "enumMember": { "foreground": "#c44dc0" },
-    "property.declaration": { "foreground": "#72458e" },
-    "function": { "foreground": "#1b5e7e" },
+    "property.declaration": { "foreground": "#723a95" },
+    "function": { "foreground": "#206189" },
     "function.declaration": { "foreground": "#bb8b07" },
     "function.definition": { "foreground": "#bb8b07", "bold": true },
-    "method": { "foreground": "#1b5e7e" },
+    "method": { "foreground": "#206189" },
     "method.declaration": { "foreground": "#bb8b07" },
     "method.declaration:rust": { "foreground": "#bb8b07", "bold": true },
     "method.definition": { "foreground": "#bb8b07", "bold": true },
@@ -111,7 +111,7 @@
     {
       "name": "turquoise",
       "settings": {
-        "foreground": "#1c8a8a"
+        "foreground": "#178f8f"
       },
       "scope": [
         "keyword",
@@ -151,7 +151,7 @@
     {
       "name": "purple dark",
       "settings": {
-        "foreground": "#72458e"
+        "foreground": "#723a95"
       },
       "scope": [
         "meta.definition.variable",
@@ -175,7 +175,7 @@
     },
 
     {
-      "name": "turquoise light",
+      "name": "green dark",
       "settings": {
         "foreground": "#416e1b"
       },
@@ -185,7 +185,8 @@
     {
       "name": "blue",
       "settings": {
-        "foreground": "#4368cc"
+        "foreground": "#4669dc"
+        // "foreground": "#4368cc"
       },
       "scope": [
         "meta.type",
@@ -203,7 +204,7 @@
     {
       "name": "blue-dark",
       "settings": {
-        "foreground": "#1b5e7e"
+        "foreground": "#206189"
       },
       "scope": [
         "entity.name.function",

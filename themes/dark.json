@@ -35,8 +35,8 @@
 
     "scrollbar.shadow": "#00000066",
     "widget.shadow": "#00000066",
-    "scrollbarSlider.background": "#0d070080",
-    "scrollbarSlider.hoverBackground": "#c0c0c010",
+    "scrollbarSlider.background": "#00000088",
+    "scrollbarSlider.hoverBackground": "#00000088",
 
     "list.hoverBackground": "#1F2528",
     "list.activeSelectionBackground": "#1F3a48",
