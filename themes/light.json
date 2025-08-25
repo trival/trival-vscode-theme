@@ -38,8 +38,8 @@
 
     "scrollbar.shadow": "#00000022",
     "widget.shadow": "#00000022",
-    "scrollbarSlider.background": "#7bd3ff70",
-    "scrollbarSlider.hoverBackground": "#7bd3ff70",
+    "scrollbarSlider.background": "#91cce970",
+    "scrollbarSlider.hoverBackground": "#91cce970",
 
     "list.hoverBackground": "#f1f2ef",
     "list.activeSelectionBackground": "#bddded",
@@ -83,8 +83,8 @@
     "method.declaration": { "foreground": "#bb8b07" },
     "method.declaration:rust": { "foreground": "#bb8b07", "bold": true },
     "method.definition": { "foreground": "#bb8b07", "bold": true },
-    "parameter": { "foreground": "#416e1b" },
-    "macro": { "foreground": "#9d5133" }
+    "parameter": { "foreground": "#0c722b" },
+    "macro": { "foreground": "#b05629" }
   },
   "tokenColors": [
     {
@@ -136,7 +136,7 @@
       ],
 
       "settings": {
-        "foreground": "#4c9713"
+        "foreground": "#4e9c13"
       }
     },
 
@@ -177,7 +177,7 @@
     {
       "name": "green dark",
       "settings": {
-        "foreground": "#416e1b"
+        "foreground": "#0c722b"
       },
       "scope": ["variable.parameter"]
     },
@@ -229,7 +229,7 @@
     {
       "name": "orange",
       "settings": {
-        "foreground": "#9d5133"
+        "foreground": "#b05629"
       },
       "scope": [
         "string.regexp",
