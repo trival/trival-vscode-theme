@@ -76,14 +76,14 @@
     "class.defaultLibrary": { "foreground": "#c44dc0" },
     "enumMember": { "foreground": "#c44dc0" },
     "property.declaration": { "foreground": "#723a95" },
-    "function": { "foreground": "#206189" },
+    "function": { "foreground": "#095e8f" },
     "function.declaration": { "foreground": "#bb8b07" },
     "function.definition": { "foreground": "#bb8b07", "bold": true },
-    "method": { "foreground": "#206189" },
+    "method": { "foreground": "#095e8f" },
     "method.declaration": { "foreground": "#bb8b07" },
     "method.declaration:rust": { "foreground": "#bb8b07", "bold": true },
     "method.definition": { "foreground": "#bb8b07", "bold": true },
-    "parameter": { "foreground": "#0c722b" },
+    "parameter": { "foreground": "#187033" },
     "macro": { "foreground": "#b05629" }
   },
   "tokenColors": [
@@ -177,7 +177,7 @@
     {
       "name": "green dark",
       "settings": {
-        "foreground": "#0c722b"
+        "foreground": "#187033"
       },
       "scope": ["variable.parameter"]
     },
@@ -204,7 +204,7 @@
     {
       "name": "blue-dark",
       "settings": {
-        "foreground": "#206189"
+        "foreground": "#095e8f"
       },
       "scope": [
         "entity.name.function",
