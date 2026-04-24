@@ -66,6 +66,7 @@
     "variable.readonly": { "underline": false },
     "variable.mutable": { "underline": true },
     "variable.declaration": { "foreground": "#dab3f3" },
+    "variable.definition": { "foreground": "#dab3f3" },
     "variable.readonly.declaration": { "foreground": "#dab3f3" },
     "variable.constant.declaration": { "foreground": "#da7cd7" },
     "variable.defaultLibrary": { "foreground": "#da7cd7", "underline": false },
